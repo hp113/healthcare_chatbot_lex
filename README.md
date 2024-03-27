@@ -1,10 +1,10 @@
-#HealthCareChatBot
+# HealthCareChatBot
 This healthcare chatbot application is built using Amazon Lex, AWS Lambda, and DynamoDB. This chatbot is designed to assist users with medication suggestions, appointment booking, activity recommendations, health assessments, and more.
 
-#Overview
+## Overview
 HealthCareChatBot leverages the power of conversational interfaces to provide users with personalized healthcare assistance. With the integration of Amazon Lex, AWS Lambda, and DynamoDB, the chatbot offers a seamless and intuitive user experience.
 
-#Features
+## Features
 Intent: suggestMedication
 Description: Provides medication suggestions based on user symptoms.
 Slots: PersonName, Symptoms, symptomDuration, symptomSeverity
@@ -24,7 +24,7 @@ Slots: Name, weight, height, DiastolicBP, SystolicBP, Sugar, Cholesterol, StepsW
 Intent: StartingMenu
 Description: Entry point for users to navigate through different features of the chatbot.
 
-Setup
+## Setup
 To deploy and use HealthCareChatBot, follow these steps:
 
 Amazon Lex Configuration: Set up the necessary intents, slots, and utterances in Amazon Lex. Refer to the screenshots provided in the screenshots/intents_and_slots directory for guidance.
@@ -37,10 +37,10 @@ Integration: Integrate the Amazon Lex bot with your preferred messaging platform
 
 Deployment: Deploy the Lambda functions and configure the necessary permissions. Ensure that the IAM roles associated with your Lambda functions have the required permissions to interact with Amazon Lex and DynamoDB.
 
-#Usage
+## Usage
 Once the setup is complete, users can interact with HealthCareChatBot through the integrated messaging platform. They can initiate conversations, provide input for different intents, and receive personalized responses based on their queries and inputs.
 
-#Contributors
+## Contributors
 Hariprasad(https://github.com/hp113)
 
 
