@@ -40,8 +40,6 @@ Deployment: Deploy the Lambda functions and configure the necessary permissions.
 ## Usage
 Once the setup is complete, users can interact with HealthCareChatBot through the integrated messaging platform. They can initiate conversations, provide input for different intents, and receive personalized responses based on their queries and inputs.
 
-## Contributors
-Hariprasad(https://github.com/hp113)
 
 
 
